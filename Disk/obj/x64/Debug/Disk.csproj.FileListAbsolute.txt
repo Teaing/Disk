@@ -1,0 +1,12 @@
+E:\我的C#项目\Projects - 副本\Disk\Disk\bin\x64\Debug\Disk.exe
+E:\我的C#项目\Projects - 副本\Disk\Disk\bin\x64\Debug\Disk.pdb
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk.csprojResolveAssemblyReference.cache
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\MainWindow.baml
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\MainWindow.g.cs
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\App.g.cs
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk_MarkupCompile.cache
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk.g.resources
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk.Properties.Resources.resources
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk.csproj.GenerateResource.Cache
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk.exe
+E:\我的C#项目\Projects - 副本\Disk\Disk\obj\x64\Debug\Disk.pdb

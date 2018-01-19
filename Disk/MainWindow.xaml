@@ -1,0 +1,23 @@
+﻿<Window x:Class="Disk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="分区计算器 By Tea" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="218" Width="360" Icon="/Disk;component/Images/ico.ico" ResizeMode="CanMinimize">
+    <Grid Height="185" Width="343">
+        <Label Content="计算" Height="28" HorizontalAlignment="Left" Margin="10,0,0,0" Name="JS" VerticalAlignment="Top" />
+        <Label Content="文件系统" Height="25" Margin="10,20,275,0" Name="WJXT" VerticalAlignment="Top" />
+        <RadioButton Content="FAT32" Height="15" HorizontalAlignment="Left" Margin="16,40,0,0" Name="FAT32" VerticalAlignment="Top" GroupName="GS" />
+        <RadioButton Content="NTFS" Height="15" HorizontalAlignment="Left" Margin="16,60,0,0" Name="NTFS" VerticalAlignment="Top" IsChecked="True" GroupName="GS" />
+        <Label Content="分区大小：" Height="28" HorizontalAlignment="Left" Margin="10,80,0,0" Name="FQDX" VerticalAlignment="Top" />
+        <TextBox Height="20" HorizontalAlignment="Left" Margin="10,100,0,0" Name="Variations" VerticalAlignment="Top" Width="180" />
+        <Button Content="计算" Height="20" HorizontalAlignment="Left" Margin="115,125,0,0" Name="Start" VerticalAlignment="Top" Width="75" Click="Start_Click" />
+        <Label Content="计算结果：" Height="28" HorizontalAlignment="Left" Margin="10,125,0,0" Name="JSJG" VerticalAlignment="Top" />
+        <TextBox Height="20" HorizontalAlignment="Left" Margin="10,150,0,0" Name="Result" VerticalAlignment="Top" Width="180" IsReadOnly="True" />
+        <Label Content="单位" Height="28" HorizontalAlignment="Left" Margin="210,80,0,0" Name="DW" VerticalAlignment="Top" />
+        <RadioButton Content="GB" Height="16" HorizontalAlignment="Left" Margin="215,100,0,0" Name="GB" VerticalAlignment="Top" IsChecked="True" GroupName="DW" />
+        <RadioButton Content="TB" Height="16" HorizontalAlignment="Left" Margin="250,100,0,0" Name="TB" VerticalAlignment="Top" GroupName="DW" />
+        <Label Content="MB" Height="28" HorizontalAlignment="Left" Margin="190,147,0,0" Name="label1" VerticalAlignment="Top" />
+        <Button Content="清除" Height="20" HorizontalAlignment="Right" Margin="115,125,70,0" Name="Clear" VerticalAlignment="Top" Width="75" Click="Clear_Click" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="75" HorizontalAlignment="Left" Margin="5,3,0,0" Name="JSB" VerticalAlignment="Top" Width="75" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="35" HorizontalAlignment="Left" Margin="210,83,0,0" Name="DWB" VerticalAlignment="Top" Width="75" />
+    </Grid>
+</Window>
